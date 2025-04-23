@@ -1,0 +1,35 @@
+#wpadminbar {
+  display: none !important;
+
+}
+
+.brxe-section,
+.brxe-container,
+.brxe-block {
+  all: unset !important;
+  display: contents !important;
+  /* Optional, avoids extra box */
+}
+
+body {
+  display: block !important;
+  margin: 0 !important;
+}
+
+html {
+  margin-top: 0 !important;
+}
+
+video{
+  border-radius: 24px;
+  height: 90% !important;
+}
+#hero-video-wrapper {
+  transition: none; /* optional */
+  will-change: width;
+}
+
+
+.box{
+    overflow: hidden !important;
+  }
